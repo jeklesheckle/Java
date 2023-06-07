@@ -1,0 +1,23 @@
+I want like topics I guess. Subjects? Items? Issues?
+
+An issue has something like data points
+
+I can pool the data points from various issues together and compare them... in some kind of table?
+
+data points will have things in common and it should be easy to plot those things along a common axis
+	I guess these "points" should be able to implement common traits or something
+
+so for example mood could be an enumerated type..?? i want a mood series or something? So a mood is a type of series?
+
+How about a series is a compound type of an entry
+
+entry is an abstract class that a class can extend
+
+MoodEntry extends Entry
+
+entry has a timestamp
+
+series has a list of entries
+
+series can be sorted by entry timestamps
+
